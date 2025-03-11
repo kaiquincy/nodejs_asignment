@@ -72,16 +72,16 @@ for name, score in students:
 
 
 #BAI 5
-text = input("Nhập đoạn văn: ").lower()
-words = text.split()
-word_count = {}
+# text = input("Nhập đoạn văn: ").lower()
+# words = text.split()
+# word_count = {}
 
-for word in words:
-    word_count[word] = word_count.get(word, 0) + 1
+# for word in words:
+#     word_count[word] = word_count.get(word, 0) + 1
 
-print("Số lần xuất hiện của từng từ:")
-for word, count in word_count.items():
-    print(word, "-", count)
+# print("Số lần xuất hiện của từng từ:")
+# for word, count in word_count.items():
+#     print(word, "-", count)
 
 
 
